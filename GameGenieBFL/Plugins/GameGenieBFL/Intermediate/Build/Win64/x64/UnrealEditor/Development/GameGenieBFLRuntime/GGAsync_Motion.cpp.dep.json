@@ -1,0 +1,20 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "s:\\unreal projects\\gamegeniebfl\\plugins\\gamegeniebfl\\source\\gamegeniebflruntime\\private\\async\\ggasync_motion.cpp",
+        "ProvidedModule": "",
+        "PCH": "s:\\unreal projects\\gamegeniebfl\\intermediate\\build\\win64\\x64\\gamegeniebfleditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "s:\\unreal projects\\gamegeniebfl\\plugins\\gamegeniebfl\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\gamegeniebflruntime\\definitions.gamegeniebflruntime.h",
+            "s:\\unreal projects\\gamegeniebfl\\plugins\\gamegeniebfl\\source\\gamegeniebflruntime\\public\\async\\ggasync_motion.h",
+            "s:\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\kismet\\blueprintasyncactionbase.h",
+            "s:\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\blueprintasyncactionbase.generated.h",
+            "s:\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\kismet\\kismetmathlibrary.h",
+            "s:\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\kismetmathlibrary.generated.h",
+            "s:\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\kismet\\kismetmathlibrary.inl",
+            "s:\\unreal projects\\gamegeniebfl\\plugins\\gamegeniebfl\\intermediate\\build\\win64\\unrealeditor\\inc\\gamegeniebflruntime\\uht\\ggasync_motion.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

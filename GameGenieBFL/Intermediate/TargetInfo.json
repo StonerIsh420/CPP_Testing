@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "GameGenieBFL",
+			"Path": "..\\Source\\GameGenieBFL.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "GameGenieBFLEditor",
+			"Path": "..\\Source\\GameGenieBFLEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

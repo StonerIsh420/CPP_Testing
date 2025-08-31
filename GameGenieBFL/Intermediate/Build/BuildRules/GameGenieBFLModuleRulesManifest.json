@@ -1,0 +1,10 @@
+{
+	"SourceFiles": [
+		"S:\\unreal projects\\GameGenieBFL\\Source\\GameGenieBFL\\GameGenieBFL.Build.cs",
+		"S:\\unreal projects\\GameGenieBFL\\Plugins\\GameGenieBFL\\Source\\GameGenieBFLEditor\\GameGenieBFLEditor.Build.cs",
+		"S:\\unreal projects\\GameGenieBFL\\Plugins\\GameGenieBFL\\Source\\GameGenieBFLRuntime\\GameGenieBFLRuntime.Build.cs",
+		"S:\\unreal projects\\GameGenieBFL\\Source\\GameGenieBFL.Target.cs",
+		"S:\\unreal projects\\GameGenieBFL\\Source\\GameGenieBFLEditor.Target.cs"
+	],
+	"EngineVersion": "5.6.1"
+}

@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "s:\\unreal projects\\gamegeniebfl\\plugins\\gamegeniebfl\\source\\gamegeniebflruntime\\private\\core\\ggcvars.cpp",
+        "ProvidedModule": "",
+        "PCH": "s:\\unreal projects\\gamegeniebfl\\intermediate\\build\\win64\\x64\\gamegeniebfleditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "s:\\unreal projects\\gamegeniebfl\\plugins\\gamegeniebfl\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\gamegeniebflruntime\\definitions.gamegeniebflruntime.h",
+            "s:\\unreal projects\\gamegeniebfl\\plugins\\gamegeniebfl\\source\\gamegeniebflruntime\\public\\core\\gglog.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

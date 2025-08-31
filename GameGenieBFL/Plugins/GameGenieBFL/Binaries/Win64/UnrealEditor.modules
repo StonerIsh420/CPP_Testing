@@ -1,0 +1,8 @@
+{
+	"BuildId": "43139311",
+	"Modules": 
+	{
+		"GameGenieBFLEditor": "UnrealEditor-GameGenieBFLEditor.dll",
+		"GameGenieBFLRuntime": "UnrealEditor-GameGenieBFLRuntime.dll"
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.GameGenieBFLRuntime.cpp.obj": [
+			"GameGenieBFLRuntime.init.gen.cpp.obj",
+			"GGBlueprintLibrary.gen.cpp.obj",
+			"GGDeveloperSettings.gen.cpp.obj",
+			"PerModuleInline.gen.cpp.obj",
+			"GGCvars.cpp.obj",
+			"GGDeveloperSettings.cpp.obj",
+			"GameGenieBFLRuntimeModule.cpp.obj",
+			"GGBlueprintLibrary.cpp.obj"
+		]
+	}
+}

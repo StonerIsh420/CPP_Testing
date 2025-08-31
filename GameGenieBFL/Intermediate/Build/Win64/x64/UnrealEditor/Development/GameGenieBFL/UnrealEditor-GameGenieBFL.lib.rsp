@@ -1,0 +1,34 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-GameGenieBFL.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"S:/unreal projects/GameGenieBFL/Intermediate/Build/Win64/x64/GameGenieBFLEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h.obj"
+"S:/unreal projects/GameGenieBFL/Intermediate/Build/Win64/x64/UnrealEditor/Development/GameGenieBFL/Module.GameGenieBFL.cpp.obj"
+"S:/unreal projects/GameGenieBFL/Intermediate/Build/Win64/x64/UnrealEditor/Development/GameGenieBFL/GameGenieBFL.cpp.obj"
+"S:/unreal projects/GameGenieBFL/Intermediate/Build/Win64/x64/UnrealEditor/Development/GameGenieBFL/GameGenieBFLCameraManager.cpp.obj"
+"S:/unreal projects/GameGenieBFL/Intermediate/Build/Win64/x64/UnrealEditor/Development/GameGenieBFL/GameGenieBFLCharacter.cpp.obj"
+"S:/unreal projects/GameGenieBFL/Intermediate/Build/Win64/x64/UnrealEditor/Development/GameGenieBFL/GameGenieBFLGameMode.cpp.obj"
+"S:/unreal projects/GameGenieBFL/Intermediate/Build/Win64/x64/UnrealEditor/Development/GameGenieBFL/GameGenieBFLPlayerController.cpp.obj"
+"S:/unreal projects/GameGenieBFL/Intermediate/Build/Win64/x64/UnrealEditor/Development/GameGenieBFL/HorrorCharacter.cpp.obj"
+"S:/unreal projects/GameGenieBFL/Intermediate/Build/Win64/x64/UnrealEditor/Development/GameGenieBFL/HorrorGameMode.cpp.obj"
+"S:/unreal projects/GameGenieBFL/Intermediate/Build/Win64/x64/UnrealEditor/Development/GameGenieBFL/HorrorPlayerController.cpp.obj"
+"S:/unreal projects/GameGenieBFL/Intermediate/Build/Win64/x64/UnrealEditor/Development/GameGenieBFL/HorrorUI.cpp.obj"
+"S:/unreal projects/GameGenieBFL/Intermediate/Build/Win64/x64/UnrealEditor/Development/GameGenieBFL/ShooterCharacter.cpp.obj"
+"S:/unreal projects/GameGenieBFL/Intermediate/Build/Win64/x64/UnrealEditor/Development/GameGenieBFL/ShooterGameMode.cpp.obj"
+"S:/unreal projects/GameGenieBFL/Intermediate/Build/Win64/x64/UnrealEditor/Development/GameGenieBFL/ShooterPlayerController.cpp.obj"
+"S:/unreal projects/GameGenieBFL/Intermediate/Build/Win64/x64/UnrealEditor/Development/GameGenieBFL/EnvQueryContext_Target.cpp.obj"
+"S:/unreal projects/GameGenieBFL/Intermediate/Build/Win64/x64/UnrealEditor/Development/GameGenieBFL/ShooterAIController.cpp.obj"
+"S:/unreal projects/GameGenieBFL/Intermediate/Build/Win64/x64/UnrealEditor/Development/GameGenieBFL/ShooterNPC.cpp.obj"
+"S:/unreal projects/GameGenieBFL/Intermediate/Build/Win64/x64/UnrealEditor/Development/GameGenieBFL/ShooterStateTreeUtility.cpp.obj"
+"S:/unreal projects/GameGenieBFL/Intermediate/Build/Win64/x64/UnrealEditor/Development/GameGenieBFL/ShooterBulletCounterUI.cpp.obj"
+"S:/unreal projects/GameGenieBFL/Intermediate/Build/Win64/x64/UnrealEditor/Development/GameGenieBFL/ShooterUI.cpp.obj"
+"S:/unreal projects/GameGenieBFL/Intermediate/Build/Win64/x64/UnrealEditor/Development/GameGenieBFL/ShooterPickup.cpp.obj"
+"S:/unreal projects/GameGenieBFL/Intermediate/Build/Win64/x64/UnrealEditor/Development/GameGenieBFL/ShooterProjectile.cpp.obj"
+"S:/unreal projects/GameGenieBFL/Intermediate/Build/Win64/x64/UnrealEditor/Development/GameGenieBFL/ShooterWeapon.cpp.obj"
+"S:/unreal projects/GameGenieBFL/Intermediate/Build/Win64/x64/UnrealEditor/Development/GameGenieBFL/ShooterWeaponHolder.cpp.obj"
+"S:/unreal projects/GameGenieBFL/Intermediate/Build/Win64/x64/UnrealEditor/Development/GameGenieBFL/Default.rc2.res"
+/OUT:"S:/unreal projects/GameGenieBFL/Intermediate/Build/Win64/x64/UnrealEditor/Development/GameGenieBFL/UnrealEditor-GameGenieBFL.lib"

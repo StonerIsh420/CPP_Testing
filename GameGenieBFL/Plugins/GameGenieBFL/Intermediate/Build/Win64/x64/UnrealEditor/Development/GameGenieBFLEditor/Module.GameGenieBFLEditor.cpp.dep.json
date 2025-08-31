@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "s:\\unreal projects\\gamegeniebfl\\plugins\\gamegeniebfl\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\gamegeniebfleditor\\module.gamegeniebfleditor.cpp",
+        "ProvidedModule": "",
+        "PCH": "s:\\unreal projects\\gamegeniebfl\\intermediate\\build\\win64\\x64\\gamegeniebfleditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "s:\\unreal projects\\gamegeniebfl\\plugins\\gamegeniebfl\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\gamegeniebfleditor\\definitions.gamegeniebfleditor.h",
+            "s:\\unreal projects\\gamegeniebfl\\plugins\\gamegeniebfl\\intermediate\\build\\win64\\unrealeditor\\inc\\gamegeniebfleditor\\uht\\gamegeniebfleditor.init.gen.cpp",
+            "s:\\unreal projects\\gamegeniebfl\\plugins\\gamegeniebfl\\intermediate\\build\\win64\\unrealeditor\\inc\\gamegeniebfleditor\\uht\\k2node_branchonnumeric.gen.cpp",
+            "s:\\unreal projects\\gamegeniebfl\\plugins\\gamegeniebfl\\source\\gamegeniebfleditor\\public\\nodes\\k2node_branchonnumeric.h",
+            "s:\\unreal projects\\gamegeniebfl\\plugins\\gamegeniebfl\\intermediate\\build\\win64\\unrealeditor\\inc\\gamegeniebfleditor\\uht\\k2node_branchonnumeric.generated.h",
+            "s:\\unreal projects\\gamegeniebfl\\plugins\\gamegeniebfl\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\gamegeniebfleditor\\permoduleinline.gen.cpp",
+            "s:\\ue_5.6\\engine\\source\\runtime\\core\\public\\hal\\permoduleinline.inl"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
