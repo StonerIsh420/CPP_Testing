@@ -10,6 +10,7 @@
 class UCurveFloat;
 class UMeshComponent;
 class USplineComponent;
+class UMaterialInstanceDynamic;
 
 UCLASS()
 class GAMEGENIEBFLRUNTIME_API UGGActorLibrary : public UBlueprintFunctionLibrary
@@ -21,13 +22,17 @@ public:
 	/** Finds the closest actor of a class from FromLocation with optional LOS trace and max distance. */
 	UFUNCTION(BlueprintCallable, Category="Game Genie BFL|Actors & Components",
 		meta=(WorldContext="WorldContextObject",
+			  AdvancedDisplay="TraceChannel,ActorToIgnore",
 			  DisplayName="Get Closest Actor with Sight Check",
-			  ToolTip="Iterates all actors of class and returns the closest one from FromLocation.\nOptionally checks line of sight on TraceChannel, ignoring ActorToIgnore.\nReturns nullptr if none found within MaxDistance."))
-	static AActor* GetClosestActorWithSightCheck(UObject* WorldContextObject, TSubclassOf<AActor> ActorClass,
-		const FVector& FromLocation, float MaxDistance = 10000.f,
+			  ToolTip="Iterates all actors of class and returns the closest one from FromLocation.\nOptionally checks line of sight on TraceChannel, ignoring ActorToIgnore.\nOutDistance is 3D distance to the returned actor (or -1 if none)."))
+	static AActor* GetClosestActorWithSightCheck(
+		UObject* WorldContextObject,
+		TSubclassOf<AActor> ActorClass,
+		const FVector& FromLocation,
+		float MaxDistance,
+		/*OUT*/ float& OutDistance,
 		ECollisionChannel TraceChannel = ECC_Visibility,
-		AActor* ActorToIgnore = nullptr,
-		float* OutDistance = nullptr);
+		AActor* ActorToIgnore = nullptr);
 
 	/** Returns the first component with a given ComponentTag (optional class filter). */
 	UFUNCTION(BlueprintCallable, Category="Game Genie BFL|Actors & Components",
@@ -92,7 +97,7 @@ public:
 	static void BatchSetActorProperties(const TArray<AActor*>& Actors,
 		bool bSetVisibility, bool bNewVisibility,
 		bool bSetHiddenInGame, bool bNewHiddenInGame,
-		bool bSetCollisionEnabled, TEnumAsByte<ECollisionEnabled::Type> NewCollisionEnabled);
+		bool bSetCollisionEnabled, ECollisionEnabled::Type NewCollisionEnabled = ECollisionEnabled::QueryAndPhysics);
 
 	/** Sets CustomTimeDilation on an actor and all attached children recursively. */
 	UFUNCTION(BlueprintCallable, BlueprintAuthorityOnly, Category="Game Genie BFL|Actors & Components",
@@ -108,7 +113,7 @@ public:
 		ESpawnActorCollisionHandlingMethod CollisionHandling = ESpawnActorCollisionHandlingMethod::AdjustIfPossibleButAlwaysSpawn,
 		AActor* Owner = nullptr);
 
-	/** True if the actor's location projects to the NavMesh (convenience overload using actor location). */
+	/** True if the location projects to the NavMesh (convenience). */
 	UFUNCTION(BlueprintPure, Category="Game Genie BFL|Actors & Components",
 		meta=(WorldContext="WorldContextObject", DisplayName="Is Location on NavMesh"))
 	static bool IsLocationOnNavMesh(UObject* WorldContextObject, const FVector& Location);

@@ -9,16 +9,17 @@
 #include "NavigationSystem.h"
 #include "DrawDebugHelpers.h"
 #include "Engine/World.h"
-#include "EngineUtils.h" // <-- add this for TActorIterator
+#include "EngineUtils.h"
 #include "TimerManager.h"
 #include "Subsystems/GameInstanceSubsystem.h"
 #include "Subsystems/GGObjectPoolSubsystem.h"
 #include "Interfaces/GGPoolable.h"
 
 AActor* UGGActorLibrary::GetClosestActorWithSightCheck(UObject* WorldContextObject, TSubclassOf<AActor> ActorClass,
-	const FVector& FromLocation, float MaxDistance, ECollisionChannel TraceChannel, AActor* ActorToIgnore, float* OutDistance)
+	const FVector& FromLocation, float MaxDistance, float& OutDistance, ECollisionChannel TraceChannel, AActor* ActorToIgnore)
 {
-	if (OutDistance) { *OutDistance = -1.f; }
+	OutDistance = -1.f;
+
 	UWorld* World = GEngine ? GEngine->GetWorldFromContextObject(WorldContextObject, EGetWorldErrorMode::LogAndReturnNull) : nullptr;
 	if (!World || !*ActorClass) { return nullptr; }
 
@@ -35,7 +36,6 @@ AActor* UGGActorLibrary::GetClosestActorWithSightCheck(UObject* WorldContextObje
 		const float DistSq = FVector::DistSquared(FromLocation, Candidate->GetActorLocation());
 		if (MaxDistance > 0.f && DistSq > FMath::Square(MaxDistance)) { continue; }
 
-		// Line of sight check
 		FHitResult Hit;
 		const FVector Start = FromLocation;
 		const FVector End = Candidate->GetActorLocation();
@@ -49,9 +49,9 @@ AActor* UGGActorLibrary::GetClosestActorWithSightCheck(UObject* WorldContextObje
 		}
 	}
 
-	if (Best && OutDistance)
+	if (Best)
 	{
-		*OutDistance = FMath::Sqrt(BestDistSq);
+		OutDistance = FMath::Sqrt(BestDistSq);
 	}
 	return Best;
 }
@@ -332,7 +332,7 @@ void UGGActorLibrary::WeldAttachedPhysicsActors(UObject* WorldContextObject, AAc
 void UGGActorLibrary::BatchSetActorProperties(const TArray<AActor*>& Actors,
 	bool bSetVisibility, bool bNewVisibility,
 	bool bSetHiddenInGame, bool bNewHiddenInGame,
-	bool bSetCollisionEnabled, TEnumAsByte<ECollisionEnabled::Type> NewCollisionEnabled)
+	bool bSetCollisionEnabled, ECollisionEnabled::Type NewCollisionEnabled)
 {
 	for (AActor* A : Actors)
 	{
@@ -343,8 +343,8 @@ void UGGActorLibrary::BatchSetActorProperties(const TArray<AActor*>& Actors,
 		{
 			if (UPrimitiveComponent* P = Cast<UPrimitiveComponent>(C))
 			{
-				if (bSetVisibility)     { P->SetVisibility(bNewVisibility, true); }
-				if (bSetHiddenInGame)   { P->SetHiddenInGame(bNewHiddenInGame); }
+				if (bSetVisibility)       { P->SetVisibility(bNewVisibility, true); }
+				if (bSetHiddenInGame)     { P->SetHiddenInGame(bNewHiddenInGame); }
 				if (bSetCollisionEnabled) { P->SetCollisionEnabled(NewCollisionEnabled); }
 			}
 		}

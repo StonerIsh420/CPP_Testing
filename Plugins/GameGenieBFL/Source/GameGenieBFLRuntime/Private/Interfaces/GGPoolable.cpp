@@ -1,8 +1,3 @@
 // Plugins/GameGenieBFL/Source/GameGenieBFLRuntime/Private/Interfaces/GGPoolable.cpp
 #include "Interfaces/GGPoolable.h"
-
-UGGPoolable::UGGPoolable(const FObjectInitializer& ObjectInitializer)
-	: Super(ObjectInitializer)
-{
-	// No-op. Interface has no native behavior by default.
-}
+// Intentionally empty: UGGPoolable constructor is generated in the .gen.cpp
