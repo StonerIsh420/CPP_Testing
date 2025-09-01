@@ -7,18 +7,20 @@ public class GameGenieBFLRuntime : ModuleRules
     {
         PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
-        PublicDependencyModuleNames.AddRange(new string[]
+        PublicDependencyModuleNames.AddRange(new[]
         {
             "Core",
             "CoreUObject",
             "Engine",
-            "DeveloperSettings"
+            "DeveloperSettings",
+            "NavigationSystem",
+            "PhysicsCore",
+            "AIModule" // for some nav helpers; light dependency
         });
 
-        PrivateDependencyModuleNames.AddRange(new string[]
+        PrivateDependencyModuleNames.AddRange(new[]
         {
-            "Engine",
-            "NavigationSystem"
+            "SlateCore"
         });
     }
 }
