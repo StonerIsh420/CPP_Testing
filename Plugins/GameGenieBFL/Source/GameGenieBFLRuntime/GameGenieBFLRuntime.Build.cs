@@ -15,12 +15,19 @@ public class GameGenieBFLRuntime : ModuleRules
             "DeveloperSettings",
             "NavigationSystem",
             "PhysicsCore",
-            "AIModule" // for some nav helpers; light dependency
+            "AIModule",
+            "GameplayTags"
         });
 
         PrivateDependencyModuleNames.AddRange(new[]
         {
-            "SlateCore"
+            "SlateCore",
+            "Json",
+            "JsonUtilities"
         });
+
+        // Optional: flip to 1 and add "EnhancedInput" to PrivateDependencyModuleNames to enable the input binder
+        PublicDefinitions.Add("GG_WITH_ENHANCED_INPUT=0");
+        // PrivateDependencyModuleNames.Add("EnhancedInput"); // enable alongside define above if you want
     }
 }
