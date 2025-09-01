@@ -1,0 +1,314 @@
+[
+	{
+		"file": "S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\Source\\CPP_Vehicle\\CPP_Vehicle.Build.cs",
+		"arguments": [
+			"S:\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\.vscode\\compileCommands_Default\\CPP_Vehicle.1.rsp"
+		],
+		"directory": "S:\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\Source\\CPP_Vehicle\\CPP_Vehicle.cpp",
+		"arguments": [
+			"S:\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\.vscode\\compileCommands_Default\\CPP_Vehicle.1.rsp"
+		],
+		"directory": "S:\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\Source\\CPP_Vehicle\\CPP_Vehicle.h",
+		"arguments": [
+			"S:\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\.vscode\\compileCommands_Default\\CPP_Vehicle.1.rsp"
+		],
+		"directory": "S:\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\Source\\CPP_Vehicle\\CPP_VehicleGameMode.cpp",
+		"arguments": [
+			"S:\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\.vscode\\compileCommands_Default\\CPP_Vehicle.1.rsp"
+		],
+		"directory": "S:\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\Source\\CPP_Vehicle\\CPP_VehicleGameMode.h",
+		"arguments": [
+			"S:\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\.vscode\\compileCommands_Default\\CPP_Vehicle.1.rsp"
+		],
+		"directory": "S:\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\Source\\CPP_Vehicle\\CPP_VehiclePawn.cpp",
+		"arguments": [
+			"S:\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\.vscode\\compileCommands_Default\\CPP_Vehicle.1.rsp"
+		],
+		"directory": "S:\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\Source\\CPP_Vehicle\\CPP_VehiclePawn.h",
+		"arguments": [
+			"S:\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\.vscode\\compileCommands_Default\\CPP_Vehicle.1.rsp"
+		],
+		"directory": "S:\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\Source\\CPP_Vehicle\\CPP_VehiclePlayerController.cpp",
+		"arguments": [
+			"S:\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\.vscode\\compileCommands_Default\\CPP_Vehicle.1.rsp"
+		],
+		"directory": "S:\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\Source\\CPP_Vehicle\\CPP_VehiclePlayerController.h",
+		"arguments": [
+			"S:\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\.vscode\\compileCommands_Default\\CPP_Vehicle.1.rsp"
+		],
+		"directory": "S:\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\Source\\CPP_Vehicle\\CPP_VehicleSportsCar.cpp",
+		"arguments": [
+			"S:\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\.vscode\\compileCommands_Default\\CPP_Vehicle.1.rsp"
+		],
+		"directory": "S:\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\Source\\CPP_Vehicle\\CPP_VehicleUI.cpp",
+		"arguments": [
+			"S:\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\.vscode\\compileCommands_Default\\CPP_Vehicle.1.rsp"
+		],
+		"directory": "S:\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\Source\\CPP_Vehicle\\CPP_VehicleUI.h",
+		"arguments": [
+			"S:\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\.vscode\\compileCommands_Default\\CPP_Vehicle.1.rsp"
+		],
+		"directory": "S:\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\Source\\CPP_Vehicle\\CPP_VehicleWheelFront.cpp",
+		"arguments": [
+			"S:\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\.vscode\\compileCommands_Default\\CPP_Vehicle.1.rsp"
+		],
+		"directory": "S:\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\Source\\CPP_Vehicle\\CPP_VehicleWheelFront.h",
+		"arguments": [
+			"S:\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\.vscode\\compileCommands_Default\\CPP_Vehicle.1.rsp"
+		],
+		"directory": "S:\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\Source\\CPP_Vehicle\\CPP_VehicleWheelRear.cpp",
+		"arguments": [
+			"S:\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\.vscode\\compileCommands_Default\\CPP_Vehicle.1.rsp"
+		],
+		"directory": "S:\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\Source\\CPP_Vehicle\\CPP_VehicleWheelRear.h",
+		"arguments": [
+			"S:\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\.vscode\\compileCommands_Default\\CPP_Vehicle.1.rsp"
+		],
+		"directory": "S:\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\Source\\CPP_Vehicle\\OffroadCar\\CPP_VehicleOffroadCar.cpp",
+		"arguments": [
+			"S:\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\.vscode\\compileCommands_Default\\CPP_Vehicle.1.rsp"
+		],
+		"directory": "S:\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\Source\\CPP_Vehicle\\OffroadCar\\CPP_VehicleOffroadCar.h",
+		"arguments": [
+			"S:\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\.vscode\\compileCommands_Default\\CPP_Vehicle.1.rsp"
+		],
+		"directory": "S:\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\Source\\CPP_Vehicle\\OffroadCar\\CPP_VehicleOffroadWheelFront.cpp",
+		"arguments": [
+			"S:\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\.vscode\\compileCommands_Default\\CPP_Vehicle.1.rsp"
+		],
+		"directory": "S:\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\Source\\CPP_Vehicle\\OffroadCar\\CPP_VehicleOffroadWheelFront.h",
+		"arguments": [
+			"S:\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\.vscode\\compileCommands_Default\\CPP_Vehicle.1.rsp"
+		],
+		"directory": "S:\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\Source\\CPP_Vehicle\\OffroadCar\\CPP_VehicleOffroadWheelRear.cpp",
+		"arguments": [
+			"S:\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\.vscode\\compileCommands_Default\\CPP_Vehicle.1.rsp"
+		],
+		"directory": "S:\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\Source\\CPP_Vehicle\\OffroadCar\\CPP_VehicleOffroadWheelRear.h",
+		"arguments": [
+			"S:\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\.vscode\\compileCommands_Default\\CPP_Vehicle.1.rsp"
+		],
+		"directory": "S:\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\Source\\CPP_Vehicle\\SportsCar\\CPP_VehicleSportsCar.h",
+		"arguments": [
+			"S:\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\.vscode\\compileCommands_Default\\CPP_Vehicle.1.rsp"
+		],
+		"directory": "S:\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\Source\\CPP_Vehicle\\SportsCar\\CPP_VehicleSportsWheelFront.cpp",
+		"arguments": [
+			"S:\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\.vscode\\compileCommands_Default\\CPP_Vehicle.1.rsp"
+		],
+		"directory": "S:\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\Source\\CPP_Vehicle\\SportsCar\\CPP_VehicleSportsWheelFront.h",
+		"arguments": [
+			"S:\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\.vscode\\compileCommands_Default\\CPP_Vehicle.1.rsp"
+		],
+		"directory": "S:\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\Source\\CPP_Vehicle\\SportsCar\\CPP_VehicleSportsWheelRear.cpp",
+		"arguments": [
+			"S:\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\.vscode\\compileCommands_Default\\CPP_Vehicle.1.rsp"
+		],
+		"directory": "S:\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\Source\\CPP_Vehicle\\SportsCar\\CPP_VehicleSportsWheelRear.h",
+		"arguments": [
+			"S:\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\.vscode\\compileCommands_Default\\CPP_Vehicle.1.rsp"
+		],
+		"directory": "S:\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\Source\\CPP_Vehicle\\Variant_OffRoad\\OffroadGameMode.cpp",
+		"arguments": [
+			"S:\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\.vscode\\compileCommands_Default\\CPP_Vehicle.1.rsp"
+		],
+		"directory": "S:\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\Source\\CPP_Vehicle\\Variant_OffRoad\\OffroadGameMode.h",
+		"arguments": [
+			"S:\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\.vscode\\compileCommands_Default\\CPP_Vehicle.1.rsp"
+		],
+		"directory": "S:\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\Source\\CPP_Vehicle\\Variant_TimeTrial\\TimeTrialGameMode.cpp",
+		"arguments": [
+			"S:\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\.vscode\\compileCommands_Default\\CPP_Vehicle.1.rsp"
+		],
+		"directory": "S:\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\Source\\CPP_Vehicle\\Variant_TimeTrial\\TimeTrialGameMode.h",
+		"arguments": [
+			"S:\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\.vscode\\compileCommands_Default\\CPP_Vehicle.1.rsp"
+		],
+		"directory": "S:\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\Source\\CPP_Vehicle\\Variant_TimeTrial\\TimeTrialPlayerController.cpp",
+		"arguments": [
+			"S:\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\.vscode\\compileCommands_Default\\CPP_Vehicle.1.rsp"
+		],
+		"directory": "S:\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\Source\\CPP_Vehicle\\Variant_TimeTrial\\TimeTrialPlayerController.h",
+		"arguments": [
+			"S:\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\.vscode\\compileCommands_Default\\CPP_Vehicle.1.rsp"
+		],
+		"directory": "S:\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\Source\\CPP_Vehicle\\Variant_TimeTrial\\TimeTrialTrackGate.cpp",
+		"arguments": [
+			"S:\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\.vscode\\compileCommands_Default\\CPP_Vehicle.1.rsp"
+		],
+		"directory": "S:\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\Source\\CPP_Vehicle\\Variant_TimeTrial\\TimeTrialTrackGate.h",
+		"arguments": [
+			"S:\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\.vscode\\compileCommands_Default\\CPP_Vehicle.1.rsp"
+		],
+		"directory": "S:\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\Source\\CPP_Vehicle\\Variant_TimeTrial\\UI\\TimeTrialStartUI.cpp",
+		"arguments": [
+			"S:\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\.vscode\\compileCommands_Default\\CPP_Vehicle.1.rsp"
+		],
+		"directory": "S:\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\Source\\CPP_Vehicle\\Variant_TimeTrial\\UI\\TimeTrialStartUI.h",
+		"arguments": [
+			"S:\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\.vscode\\compileCommands_Default\\CPP_Vehicle.1.rsp"
+		],
+		"directory": "S:\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\Source\\CPP_Vehicle\\Variant_TimeTrial\\UI\\TimeTrialUI.cpp",
+		"arguments": [
+			"S:\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\.vscode\\compileCommands_Default\\CPP_Vehicle.1.rsp"
+		],
+		"directory": "S:\\UE_5.6\\Engine\\Source"
+	},
+	{
+		"file": "S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\Source\\CPP_Vehicle\\Variant_TimeTrial\\UI\\TimeTrialUI.h",
+		"arguments": [
+			"S:\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\.vscode\\compileCommands_Default\\CPP_Vehicle.1.rsp"
+		],
+		"directory": "S:\\UE_5.6\\Engine\\Source"
+	}
+]

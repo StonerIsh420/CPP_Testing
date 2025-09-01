@@ -1,0 +1,46 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.CPP_Vehicle.cpp.obj": [
+			"CPP_Vehicle.init.gen.cpp.obj",
+			"CPP_VehicleGameMode.gen.cpp.obj",
+			"CPP_VehicleOffroadCar.gen.cpp.obj",
+			"CPP_VehicleOffroadWheelFront.gen.cpp.obj",
+			"CPP_VehicleOffroadWheelRear.gen.cpp.obj",
+			"CPP_VehiclePawn.gen.cpp.obj",
+			"CPP_VehiclePlayerController.gen.cpp.obj",
+			"CPP_VehicleSportsCar.gen.cpp.obj",
+			"CPP_VehicleSportsWheelFront.gen.cpp.obj",
+			"CPP_VehicleSportsWheelRear.gen.cpp.obj",
+			"CPP_VehicleUI.gen.cpp.obj",
+			"CPP_VehicleWheelFront.gen.cpp.obj",
+			"CPP_VehicleWheelRear.gen.cpp.obj",
+			"OffroadGameMode.gen.cpp.obj",
+			"TimeTrialGameMode.gen.cpp.obj",
+			"TimeTrialPlayerController.gen.cpp.obj",
+			"TimeTrialStartUI.gen.cpp.obj",
+			"TimeTrialTrackGate.gen.cpp.obj",
+			"TimeTrialUI.gen.cpp.obj",
+			"PerModuleInline.gen.cpp.obj",
+			"CPP_Vehicle.cpp.obj",
+			"CPP_VehicleGameMode.cpp.obj",
+			"CPP_VehiclePawn.cpp.obj",
+			"CPP_VehiclePlayerController.cpp.obj",
+			"CPP_VehicleSportsCar.cpp.obj",
+			"CPP_VehicleUI.cpp.obj",
+			"CPP_VehicleWheelFront.cpp.obj",
+			"CPP_VehicleWheelRear.cpp.obj",
+			"CPP_VehicleOffroadCar.cpp.obj",
+			"CPP_VehicleOffroadWheelFront.cpp.obj",
+			"CPP_VehicleOffroadWheelRear.cpp.obj",
+			"CPP_VehicleSportsWheelFront.cpp.obj",
+			"CPP_VehicleSportsWheelRear.cpp.obj",
+			"OffroadGameMode.cpp.obj",
+			"TimeTrialGameMode.cpp.obj",
+			"TimeTrialPlayerController.cpp.obj",
+			"TimeTrialTrackGate.cpp.obj",
+			"TimeTrialStartUI.cpp.obj",
+			"TimeTrialUI.cpp.obj"
+		]
+	}
+}

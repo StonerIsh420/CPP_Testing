@@ -1,0 +1,20 @@
+{
+	"configurations": [
+		{
+			"name": "CPP_VehicleEditor Editor Win64 Development (CPP_Vehicle)",
+			"compilerPath": "S:\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"cStandard": "c17",
+			"cppStandard": "c++20",
+			"intelliSenseMode": "msvc-x64",
+			"compileCommands": "S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\.vscode\\compileCommands_CPP_Vehicle.json"
+		},
+		{
+			"name": "Win32",
+			"compilerPath": "S:\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"cStandard": "c17",
+			"cppStandard": "c++20",
+			"intelliSenseMode": "msvc-x64",
+			"compileCommands": "S:\\GitHUB Testing\\CPP_Testing\\CPP_Vehicle\\.vscode\\compileCommands_Default.json"
+		}
+	]
+}

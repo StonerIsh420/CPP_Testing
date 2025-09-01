@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-CPP_Vehicle.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"S:/GitHUB Testing/CPP_Testing/CPP_Vehicle/Intermediate/Build/Win64/x64/CPP_VehicleEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h.obj"
+"S:/GitHUB Testing/CPP_Testing/CPP_Vehicle/Intermediate/Build/Win64/x64/UnrealEditor/Development/CPP_Vehicle/Module.CPP_Vehicle.cpp.obj"
+"S:/GitHUB Testing/CPP_Testing/CPP_Vehicle/Intermediate/Build/Win64/x64/UnrealEditor/Development/CPP_Vehicle/Default.rc2.res"
+/OUT:"S:/GitHUB Testing/CPP_Testing/CPP_Vehicle/Intermediate/Build/Win64/x64/UnrealEditor/Development/CPP_Vehicle/UnrealEditor-CPP_Vehicle.lib"
